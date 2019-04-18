@@ -1,0 +1,17 @@
+.title{
+    color:#4aaaa5;
+    font-weight:bold;
+    size:35px;
+    border-bottom:1px;
+    border-bottom-color: #666666;
+    border-top-color:whitesmoke;
+    border-left-color:whitesmoke;
+    border-right-color:whitesmoke;
+    border-style:solid;
+}
+
+footer{
+    border-top: solid #4aaaa5 2px;
+    color:grey;
+    text-align:center;
+}
