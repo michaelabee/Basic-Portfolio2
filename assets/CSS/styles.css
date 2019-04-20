@@ -2,11 +2,15 @@
     color:#4aaaa5;
     font-weight:bold;
     margin-bottom:2px;
+    margin-left:20px;
     padding: 1px;
     size:35px;
     border-bottom:1px darkgrey solid;
+    float:left;
 }
-
+header{
+    background:white;
+}
 body{
     background-image: url(../images/background.png);
     height:100%;
@@ -31,6 +35,8 @@ footer{
 .bodystyle{
     background: white;
     margin:50px;
+    z-index: 1;
+    position:absolute;
 }
 
 .head-name{
@@ -38,8 +44,10 @@ footer{
   
 }
 .links{
-    float: right;
-  
+    display:inline;
+    color:grey;
+    font-size:20px;
+
 }
 
 .container{
@@ -47,6 +55,100 @@ footer{
     width:100%,
 }
 
-span{
+nav{
     background:white;
-    }
+    width:66%;
+}
+.body-style{
+    display:inline-block;
+    padding:20px;
+    background:white;
+}
+.my-name{
+    display:inline-block;
+    text-align:left;
+    background-color:#4aaaa5;
+    color:white;
+    margin-bottom: 0px;
+    line-height:81px;
+}
+.navbar{
+    background:white;
+    width:100%;
+    margin-left:364px
+}
+.bio-photo{
+    float:left;
+}
+#contact-form{
+    background:white;
+    text-align:center;
+}
+ul{
+    list-style:none;
+
+}
+.text-block1 {
+    position: relative;
+    bottom: 5px;
+    right: 0px;
+    width: 141px;
+    line-height: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0;
+    margin-bottom: 13px;
+    text-align: center;
+  }
+  .text-block2 {
+    position: relative;
+    bottom: 26px;
+    right: 0px;
+    width: 141px;
+    line-height: 28px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .text-block3 {
+    position: relative;
+    bottom: 172px;
+    right: 0px;
+    width: 189px;
+    line-height: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .text-block4 {
+    position: relative;
+    bottom: 172px;
+    right: 0px;
+    width: 189px;
+    line-height: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .text-block5 {
+    position: relative;
+    bottom: 172px;
+    right: 0px;
+    width: 189px;
+    line-height: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+.containerImage{
+    Width:175px;
+
+}
